@@ -1,9 +1,9 @@
 permalink: /:year:month:day/:title
-url: #Your url here
-baseurl: /project
+url: https://midnighthotpot.club
+baseurl: /
 
 # variables
-name: Your Site Name
+name: Midnight Hotpot Club
 description: Your description here
 google_verification: null
 
@@ -23,3 +23,6 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
+
+thumbs_up: "&#128077;"
+thumbs_down: "&#128078;"
