@@ -20,9 +20,10 @@ title: Members
     </p>
 </div>
 <div class="member">
-<img src="/assets/img/members/default.png" alt="profile_image" />
-    <h2>로롱</h2>
+<img src="/assets/img/members/thousand_kim.jpg" alt="profile_image" />
+    <h2>Thousand Kim</h2>
     <p>
+    email:  <a href="mailto:{{ site.emails.thousand | encode_email }}" title="Contact me">sw1000(at)bulgogi.pizza</a><br>
     instagram: <a href="https://www.instagram.com/thousand__sw" target="_blank" rel="noopener noreferrer">thousand__sw</a>
     </p>
 </div>

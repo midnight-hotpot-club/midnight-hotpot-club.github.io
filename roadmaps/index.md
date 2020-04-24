@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Members
+title: Roadmaps
 ---
 
 # 로드맵
@@ -11,6 +11,8 @@ title: Members
 >**2032** Larry Kim, 일론 머스크 회사의 냉동인간 프로젝트 참가
 >
 >**2042** Larry Kim, 일론 머스크 회사의 냉동인간 프로젝트에서 귀환
+>
+>**2045** Larry Kim이 냉동인간 프로젝트에서 획득한 SpaceX 자료를 이용해 협동조합 항공사 「Drunken Air」 공동설립
 >
 >**2050** 서울 위성도시 어딘가에 심야훠궈클럽 회관 건설 또는 구입
 >

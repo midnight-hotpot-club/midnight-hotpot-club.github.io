@@ -5,11 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
-    {% if page.title or page.title == 'me' %}
-        <title>{{ page.title }}</title>
+	        <title>{{ site.name }}</title>
+<!--	<title>{{ page.title }}</title>-->
+	{% if page.title %}
 		<link rel="stylesheet" type="text/css" href="/assets/css/002.css">
     {% else %}
-        <title>{{ site.name }}</title>
+<!--        <title>{{ site.name }}</title>-->
 		<link rel="stylesheet" type="text/css" href="/assets/css/001.css">
     {% endif %}
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
@@ -43,19 +44,15 @@
 		</div>
 		<div class="post_list">
 			{% unless page.date%}
-				{% if page.title == 'me' or page.title == '404...' %}
-					<ul>
-						{% for post in site.posts %}
-						<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
-				{% else %}
-					{{ content }}
-				{% endif %}
+				<ul>
+					{% for post in site.posts %}
+					<li><a href="{{ post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
 			{% else %}
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="{{ post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
