@@ -27,3 +27,6 @@ title: Members
     instagram: <a href="https://www.instagram.com/thousand__sw" target="_blank" rel="noopener noreferrer">thousand__sw</a>
     </p>
 </div>
+
+## 가입을 희망하는 분에게
+심야훠궈클럽은 언제나 열려있습니다. 기존 회원과 면식이 있으시다면 그 분에게 직접 연락해 주세요. 감사합니다.
