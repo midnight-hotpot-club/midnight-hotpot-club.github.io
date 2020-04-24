@@ -18,7 +18,7 @@
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-	<div class="wrapper">
+	<header class="wrapper">
 		<div class="default_title">
 			<img src="/assets/img/mycomputer.png" />
 			{% if page.tag %}
@@ -73,7 +73,8 @@
 			{% endif %}
 			<div class="right">&nbsp;</div>
 		</div>
-	</div>
+	</header>
+	<main>
 	{% if page.title %}
         <div class="content">
 			<div class="post_title">
@@ -86,19 +87,17 @@
 			<ul class="topbar">
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
 			</ul>
-			<div class="post_content">
-        		{{ content }}
-<!--				{% if page.title %}-->
-<!--					{% include donate.html %}-->
-<!--				{% endif %}-->
-			</div>
+			<article class="post_content">
+				{{ content }}
+			</article>
 		</div>
     {% endif %}
+	</main>
 	<script src="/assets/js/001.js"></script>
 	<script src="/assets/js/002.js"></script>
-	<div class="footer">
+	<footer class="footer">
 		<p>2020 Midnight Hotpot Club</p>
 		<p>Theme created by <a href="http://github.com/h01000110" target="_blank">h01000110 (hi)</a> | Code licensed under <a href="https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
-	</div>
+	</footer>
 </body>
 </html>
