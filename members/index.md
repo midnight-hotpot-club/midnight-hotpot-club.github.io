@@ -16,6 +16,7 @@ title: Members
 <img src="/assets/img/members/default.png" alt="profile_image" />
     <h2>Larry Kim</h2>
     <p>
+    comment: 착해서<br>
     youtube: <a href="https://www.youtube.com/channel/UC8qIYDaE2d_DGGNVv6FCFTA" target="_blank" rel="noopener noreferrer">めんトリ</a><br>
     </p>
 </div>
