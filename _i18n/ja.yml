@@ -1,8 +1,11 @@
 global:
   asdf: "asdf"
 discs:
-  message: 蒟蒻
+  message: | 
+    ここでは本倶楽部の会員たちが所蔵していて、上映会で流すことができる作品をリストアップします。所有者は表記しません。
+    （現在所蔵作品リストは韓国語だけで提供されています）
+  list: 会員たちの所蔵メディア
 members:
   member_list: 会員名簿
-  become_a_member: 加入をご希望する方へ
-  become_a_member_desc: become_a_member_desc
+  become_a_member: 新規入会をご希望する方へ
+  become_a_member_desc: 深夜火鍋倶楽部の扉はいつでも開いています。入会をご希望する方は、会員の一人にご相談ください。
