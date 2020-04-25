@@ -1,0 +1,6 @@
+global:
+  asdf: "asdf"
+members:
+  member_list: 会員名簿
+  become_a_member: 加入をご希望する方へ
+  become_a_member_desc: become_a_member_desc

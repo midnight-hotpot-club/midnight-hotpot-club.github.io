@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: https://midnighthotpot.club
-baseurl: /
+baseurl: ""
 
 # variables
 name: Midnight Hotpot Club
@@ -31,3 +31,9 @@ non_posts: ["About", "Members", "Roadmaps", "Discs", "404..."]
 
 emails:
   thousand: sw1000@bulgogi.pizza
+
+languages: ['ko', 'ja']
+exclude_from_localizations: ["fonts", "img", "js", "css", "assets"]
+
+plugins:
+  - jekyll-multiple-languages-plugin

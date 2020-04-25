@@ -3,7 +3,7 @@ layout: about
 title: Members
 ---
 
-# 회원 명부
+# {% t members.member_list %}
 <div class="member">
     <img src="/assets/img/members/mirai_kim.jpg" alt="profile_image" />
     <h2>Mirai Kim</h2>
@@ -29,5 +29,5 @@ title: Members
     </p>
 </div>
 
-## 가입을 희망하는 분에게
-심야훠궈클럽은 언제나 열려있습니다. 기존 회원과 면식이 있으시다면 그 분에게 직접 연락해 주세요. 감사합니다.
+## {% t members.become_a_member %}
+{% t members.become_a_member_desc %}
