@@ -1,5 +1,7 @@
 global:
   asdf: "asdf"
+discs:
+  message: 蒟蒻
 members:
   member_list: 会員名簿
   become_a_member: 加入をご希望する方へ
