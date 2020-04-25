@@ -2,6 +2,9 @@ body {
 	background: #008082;
 	font-family: sans-serif, serif, monospace;
 	font-size: 13px;
+	white-space: normal;
+	word-break: keep-all;
+	word-wrap: break-word;
 }
 
 .member {
