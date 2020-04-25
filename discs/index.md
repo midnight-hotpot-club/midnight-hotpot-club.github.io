@@ -3,7 +3,7 @@ layout: about
 title: Discs
 ---
 
-# 회원들의 소장 미디어
+# {% t discs.list %}
 ![Movie Poster]({{ site.url }}/assets/img/cd_drive-3.png)
 {% t discs.message %}
 
