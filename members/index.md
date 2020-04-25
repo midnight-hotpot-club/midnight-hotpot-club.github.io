@@ -13,7 +13,7 @@ title: Members
     </p>
 </div>
 <div class="member">
-<img src="/assets/img/members/default.png" alt="profile_image" />
+<img src="/assets/img/members/larry_kim.gif" alt="profile_image" />
     <h2>Larry Kim</h2>
     <p>
     comment: 착해서<br>
