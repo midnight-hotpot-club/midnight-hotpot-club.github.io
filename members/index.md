@@ -9,7 +9,7 @@ title: Members
     <h2>Mirai Kim</h2>
     <p>
     web: <a href="https://euc-kr.net" target="_blank" rel="noopener noreferrer">euc-kr.net</a><br>
-    instagram: <a href="https://www.instagram.com/swim.rhie" target="_blank" rel="noopener noreferrer">swim.rhie</a>
+    instagram: <a href="https://www.instagram.com/swim.rhie" target="_blank" rel="noopener noreferrer">@swim.rhie</a>
     </p>
 </div>
 <div class="member">
@@ -25,7 +25,14 @@ title: Members
     <h2>Thousand Kim</h2>
     <p>
     email:  <a href="mailto:{{ site.emails.thousand | encode_email }}" title="Contact me">sw1000(at)bulgogi.pizza</a><br>
-    instagram: <a href="https://www.instagram.com/thousand__sw" target="_blank" rel="noopener noreferrer">thousand__sw</a>
+    instagram: <a href="https://www.instagram.com/thousand__sw" target="_blank" rel="noopener noreferrer">@thousand__sw</a>
+    </p>
+</div>
+<img src="/assets/img/members/haeun_kim.jpg" alt="profile_image" />
+    <h2>Haeun Kim</h2>
+    <p>
+    comment:  失礼だな，純愛だよ．<br>
+    instagram: <a href="https://www.instagram.com/h.ha.eun" target="_blank" rel="noopener noreferrer">@h.ha.eun</a>
     </p>
 </div>
 
