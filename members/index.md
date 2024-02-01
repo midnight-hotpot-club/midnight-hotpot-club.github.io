@@ -28,6 +28,7 @@ title: Members
     instagram: <a href="https://www.instagram.com/thousand__sw" target="_blank" rel="noopener noreferrer">@thousand__sw</a>
     </p>
 </div>
+<div class="member">
 <img src="/assets/img/members/haeun_kim.jpg" alt="profile_image" />
     <h2>Haeun Kim</h2>
     <p>
