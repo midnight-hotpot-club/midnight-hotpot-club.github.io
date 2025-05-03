@@ -1,9 +1,0 @@
-global:
-  asdf: "asdf"
-discs:
-  message: 이 항목에서는 회원들이 소장하고 있어 상영회 개최시 바로 사용할 수 있는 목록을 나열합니다. 소유자는 따로 적지 않습니다.
-  list: 회원들의 소장 미디어
-members:
-  member_list: 회원 명부
-  become_a_member: 가입을 희망하는 분에게
-  become_a_member_desc: 심야훠궈클럽은 언제나 열려있습니다. 기존 회원과 면식이 있으시다면 그 분에게 직접 연락해 주세요. 감사합니다.
