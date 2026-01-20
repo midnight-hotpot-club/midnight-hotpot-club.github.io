@@ -3,9 +3,10 @@
 
 function numbers () {
 	var fields = document.getElementsByTagName("code");
-	for (field in fields) {
+	for (var field in fields) {
 		var num = 0;
 		var select = fields[field].innerText;
+		if (!select) continue;
 		var select_f = select.split(/\n/);
 		var tab = document.createElement("table");
 
