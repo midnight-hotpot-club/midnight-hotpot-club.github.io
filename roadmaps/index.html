@@ -86,7 +86,7 @@
 
   <p><strong>2030</strong> 서울 적당한 상가 건물에 심야훠궈클럽 회관 임대</p>
 
-  <p><strong>2031</strong> 시네마지옥 상영작 자체공급을 위한 영화제작사 설립</p>
+  <p><strong>2031</strong> 시네마지옥 상영작 자체공급을 위한 영화제작사 설립</p>
 
   <p><strong>2032</strong> Larry Kim, 일론 머스크 회사의 냉동인간 프로젝트 참가</p>
 
@@ -111,8 +111,13 @@
 	<script src="/assets/js/001.js"></script>
 	<script src="/assets/js/002.js"></script>
 	<footer class="footer">
-		<p>2020-2024 Midnight Hotpot Club</p>
+		<p>2020-<span id="current-year">2026</span> Midnight Hotpot Club</p>
 		<p>Theme created by <a href="http://github.com/h01000110" target="_blank">h01000110 (hi)</a> | Code licensed under <a href="https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
 	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			document.getElementById('current-year').textContent = new Date().getFullYear()
+		}, {once: true})
+	</script>
 </body>
 </html>

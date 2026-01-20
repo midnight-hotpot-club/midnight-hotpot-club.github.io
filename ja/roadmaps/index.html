@@ -111,8 +111,13 @@
 	<script src="/assets/js/001.js"></script>
 	<script src="/assets/js/002.js"></script>
 	<footer class="footer">
-		<p>2020-2024 Midnight Hotpot Club</p>
+		<p>2020-<span id="current-year">2026</span> Midnight Hotpot Club</p>
 		<p>Theme created by <a href="http://github.com/h01000110" target="_blank">h01000110 (hi)</a> | Code licensed under <a href="https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
 	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			document.getElementById('current-year').textContent = new Date().getFullYear()
+		}, {once: true})
+	</script>
 </body>
 </html>
