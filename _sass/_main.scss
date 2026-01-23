@@ -8,7 +8,8 @@ body {
 }
 
 .member {
-	width: 100%;
+	width: calc(100% - 10px); /* fallback */
+	width: -webkit-fill-available;
 	margin-left: 10px;
 	margin-bottom: 20px;
 	padding: 0;
